@@ -1,7 +1,8 @@
-package com.destiny.e_bengkelmitra;
+package com.destiny.e_bengkelmitra.Actiivty;
 
 import android.os.Bundle;
 
+import com.destiny.e_bengkelmitra.R;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -22,11 +23,14 @@ public class HomeActivity extends AppCompatActivity {
                 case R.id.navigation_home:
                     mTextMessage.setText(R.string.title_home);
                     return true;
-                case R.id.navigation_dashboard:
-                    mTextMessage.setText(R.string.title_dashboard);
+                case R.id.navigation_dompet:
+                    mTextMessage.setText(R.string.title_dompet);
                     return true;
-                case R.id.navigation_notifications:
-                    mTextMessage.setText(R.string.title_notifications);
+                case R.id.navigation_riwayat:
+                    mTextMessage.setText(R.string.title_riwayat);
+                    return true;
+                case R.id.navigation_lainnya:
+                    mTextMessage.setText(R.string.title_lainnya);
                     return true;
             }
             return false;

@@ -5,4 +5,5 @@
     <string name="title_riwayat">Riwayat</string>
     <string name="title_dompet">Dompet</string>
     <string name="title_lainnya">Lainnya</string>
+    <string name="koneksi_gagal">Koneksi Gagal</string>
 </resources>
