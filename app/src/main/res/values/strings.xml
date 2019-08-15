@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">E-BengkelMitra</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_riwayat">Riwayat</string>
+    <string name="title_dompet">Dompet</string>
+    <string name="title_lainnya">Lainnya</string>
+</resources>
